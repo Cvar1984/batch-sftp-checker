@@ -8,7 +8,7 @@ use altayalp\FtpClient\FileFactory;
 
 $urlToRemoteJson = $argv[1];
 
-$pathToLocalFile = '/srv/http/hmei7.html';
+$pathToLocalFile = $argv[2];
 $outName = 'test.php';
 $credentials = file_get_contents($urlToRemoteJson);
 $credentials = json_decode($credentials, true);
