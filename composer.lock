@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cbbdfb297497d341c7f144545767b9c",
+    "content-hash": "d00a3f9e061f5755b3d69999b9579b45",
     "packages": [
         {
             "name": "altayalp/ftp-client",
@@ -69,8 +69,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-ssh2": "*",
-        "ext-ftp": "*"
+        "ext-ftp": "^8.3.0",
+        "ext-ssh2": "^1.4.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
