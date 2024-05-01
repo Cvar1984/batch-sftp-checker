@@ -1,6 +1,7 @@
 {
     "require": {
 	"ext-ssh2":"*",
-        "altayalp/ftp-client": "^1.0"
+        "altayalp/ftp-client": "^1.0",
+        "ext-ftp": "*"
     }
 }
